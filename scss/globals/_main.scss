@@ -39,13 +39,46 @@ body{
     }
 
     &-date-block{
-        padding: 50px 0 40px 50px;
+        padding: 50px 0 0px 50px;
     }
 
     &-date-each{
-        padding-right: 150px;
         color: var(--smokey-grey);
     }
+
+    input{
+        height: 70px;
+        width: 150px;
+        
+        margin: 20px 50px 0 0;
+
+        border-color: var(--light-grey);
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 1px;
+
+        &::placeholder{
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        &:focus{
+            border-color: var(--purple);
+            outline: none;
+        }
+    }
+}
+
+img{
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    margin-left: 720px;
+    
+    border-radius: 100%;
+
+    color: var(--white) !important;
+    background-color: var(--purple);
 }
 
 
