@@ -28,7 +28,7 @@ body {
   height: 100vh;
 }
 .main-block {
-  height: 650px;
+  height: 680px;
   width: 850px;
   background-color: var(--white);
   border-radius: 30px 30px 200px 30px;
@@ -60,6 +60,22 @@ body {
   outline: none;
 }
 
+.error {
+  font-size: 12px;
+  font-style: italic;
+  margin: 0;
+}
+.error-color {
+  color: var(--light-red) !important;
+}
+.error-border-color {
+  border-color: var(--light-red) !important;
+}
+
+.display-none {
+  display: none;
+}
+
 a {
   cursor: pointer;
 }
@@ -82,10 +98,6 @@ img {
 }
 .results-numbers {
   color: var(--purple);
-}
-
-.text-input {
-  font-size: 32px;
 }
 
 :root {

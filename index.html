@@ -21,16 +21,24 @@
     <div class="main-block">
       <div class="flex main-date-block">
         <div>
-          <div class="main-date-each">DAY</div>
-          <input id="inputDay" type="number" maxlength="2" placeholder="DD">
+          <div id="textDay" class="main-date-each" data-in>DAY</div>
+          <input id="inputDay" type="number" maxlength="2" placeholder="DD" data-in>
+          <p id="errorEmptyDay" class="error error-color display-none" data-error="emptyDay">This field is required</p>
+          <p id="errorDay" class="error error-color display-none" data-error>Must be a valid day</p>
+          <p id="errorDate" class="error error-color display-none" data-error>Must be a valid date</p>
         </div>
         <div>
-          <div class="main-date-each">MONTH</div>
-          <input id="inputMonth" type="number" maxlength="2" placeholder="MM">
+          <div id="textMonth" class="main-date-each" data-in>MONTH</div>
+          <input id="inputMonth" type="number" maxlength="2" placeholder="MM" data-in>
+          <p id="errorEmptyMonth" class="error error-color display-none" data-error>This field is required</p>
+          <p id="errorMonth" class="error error-color display-none" data-error>Must be a valid month</p>
         </div>
         <div>
-          <div class="main-date-each">YEAR</div>
-          <input id="inputYear" type="number" maxlength="4" placeholder="YYYY">
+          <div id="textYear" class="main-date-each" data-in>YEAR</div>
+          <input id="inputYear" type="number" maxlength="4" placeholder="YYYY" data-in>
+          <p id="errorEmptyYear" class="error error-color display-none" data-error>This field is required</p>
+          <p id="errorYear" class="error error-color display-none" data-error>Must be a valid year</p>
+          <p id="errorFuture" class="error error-color display-none" data-error>Must be in the past</p>
         </div>
       </div>
       <a id="btn"><img src="./assets/images/icon-arrow.svg"></img></a>
@@ -48,6 +56,6 @@
     </div>
   </div>
   
-  <script src="./static/script.js"></script>
+  <script src="./static/script.js" defer></script>
 </body>
 </html>
