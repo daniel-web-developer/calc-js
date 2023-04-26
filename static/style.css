@@ -43,22 +43,25 @@ body {
   height: 70px;
   width: 150px;
   margin: 20px 50px 0 0;
+  padding-left: 10px;
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+          appearance: textfield;
   border-color: var(--light-grey);
   border-style: solid;
   border-radius: 5px;
   border-width: 1px;
-}
-.main input::-moz-placeholder {
-  font-size: 40px;
-  font-weight: 700;
-}
-.main input::placeholder {
+  caret-color: var(--purple);
   font-size: 40px;
   font-weight: 700;
 }
 .main input:focus {
   border-color: var(--purple);
   outline: none;
+}
+
+a {
+  cursor: pointer;
 }
 
 img {
@@ -69,6 +72,16 @@ img {
   border-radius: 100%;
   color: var(--white) !important;
   background-color: var(--purple);
+}
+
+.results {
+  padding: 20px 0 0 50px;
+  font-size: 72px;
+  font-weight: 800;
+  font-style: italic;
+}
+.results-numbers {
+  color: var(--purple);
 }
 
 .text-input {

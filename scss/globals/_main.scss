@@ -52,21 +52,30 @@ body{
         
         margin: 20px 50px 0 0;
 
+        padding-left: 10px;
+
+        -moz-appearance: textfield;
+        appearance: textfield;
+
         border-color: var(--light-grey);
         border-style: solid;
         border-radius: 5px;
         border-width: 1px;
 
-        &::placeholder{
-            font-size: 40px;
-            font-weight: 700;
-        }
+        caret-color: var(--purple);
+
+        font-size: 40px;
+        font-weight: 700;
 
         &:focus{
             border-color: var(--purple);
             outline: none;
         }
     }
+}
+
+a{
+    cursor: pointer;
 }
 
 img{
@@ -79,6 +88,17 @@ img{
 
     color: var(--white) !important;
     background-color: var(--purple);
+}
+
+.results{
+    padding: 20px 0 0 50px;
+    font-size: 72px;
+    font-weight: 800;
+    font-style: italic;
+
+    &-numbers{
+        color: var(--purple);
+    }
 }
 
 
