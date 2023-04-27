@@ -181,9 +181,11 @@ button.addEventListener('click', () => {
 
     let resultDate = Date.today().add({ years: -inputYear, months: -inputMonth, days: -inputDay});
 
-    rY = resultDate.toString("yy");
+    rY = resultDate.toString("yyyy");
     rM = resultDate.toString("MM");
     rD = resultDate.toString("dd");
+
+    console.log(Date.today());
 
     inputs.forEach(input => {
         input.className = '';
