@@ -185,8 +185,6 @@ button.addEventListener('click', () => {
     rM = resultDate.toString("MM");
     rD = resultDate.toString("dd");
 
-    console.log(Date.today());
-
     inputs.forEach(input => {
         input.className = '';
     })
