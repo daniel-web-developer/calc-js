@@ -11,7 +11,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  background-color: var(--off-black);
+  background-color: var(--off-white);
 }
 
 .flex {
@@ -76,16 +76,13 @@ body {
   display: none;
 }
 
-a {
-  cursor: pointer;
-}
-
 img {
   height: 80px;
   width: 80px;
   padding: 20px;
   margin-left: 720px;
   border-radius: 100%;
+  cursor: pointer;
   color: var(--white) !important;
   background-color: var(--purple);
 }
@@ -100,6 +97,40 @@ img {
   color: var(--purple);
 }
 
+@media screen and (max-width: 375px) {
+  .main-block {
+    height: 500px !important;
+    width: 350px !important;
+  }
+  .main-date-block {
+    padding: 50px 0px 0px 20px;
+  }
+  .main-date-each {
+    font-size: 16px;
+  }
+  .main input {
+    height: 50px;
+    width: 80px;
+    margin: 15px 20px 0 0;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  img {
+    height: 65px;
+    width: 65px;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .mobile-image {
+    display: flex;
+    justify-content: center;
+  }
+  .results {
+    padding: 40px 0 0 20px;
+    font-size: 40px;
+  }
+}
 :root {
   --purple: hsl(259, 100%, 65%);
   --light-red: hsl(0, 100%, 67%);
