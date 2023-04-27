@@ -35,7 +35,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](![image](https://user-images.githubusercontent.com/107224353/234868391-6fe16bb6-a6ee-4360-860c-52030573fd07.png))
+![image](https://user-images.githubusercontent.com/107224353/234872903-e7faf20f-1ded-40e7-9e80-98a740ca3337.png)
+
 
 ### Links
 
